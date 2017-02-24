@@ -1,4 +1,7 @@
 var express = require("express");
+//var passport = require("passport");
+//var FitbitStrategy = require("passport-fitbit-oauth2").FitbitOAuth2Strategy;
+
 var app = express();
 const PORT = process.env.PORT || 3000;
 

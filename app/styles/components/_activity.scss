@@ -1,0 +1,31 @@
+.activity-header {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 1rem;
+  transition: background .3s ease;
+  background-color: #68ace8;
+
+  p, input {
+    margin: 0;
+  }
+
+  > :first-child {
+    margin-right: 1rem;
+  }
+
+  // .todo:hover
+  &:hover {
+    background: #348bd8;
+  }
+}
+
+.activity {
+  align-items: center;
+  display: flex;
+  padding: 0.5rem;
+
+  p, input {
+    margin: 0;
+  }
+}
